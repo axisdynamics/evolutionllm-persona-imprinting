@@ -1,0 +1,980 @@
+{
+  "modelo": "gemma4:12b",
+  "K": 5,
+  "n_referencia": 3,
+  "tareas": [
+    {
+      "id": "extraccion_L1_1",
+      "categoria": "extraccion",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L1_2",
+      "categoria": "extraccion",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L1_3",
+      "categoria": "extraccion",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L2_1",
+      "categoria": "extraccion",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L2_2",
+      "categoria": "extraccion",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L2_3",
+      "categoria": "extraccion",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L3_1",
+      "categoria": "extraccion",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L3_2",
+      "categoria": "extraccion",
+      "nivel_original": 3,
+      "p": 0.847,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "extraccion_L3_3",
+      "categoria": "extraccion",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L4_1",
+      "categoria": "extraccion",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L4_2",
+      "categoria": "extraccion",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L4_3",
+      "categoria": "extraccion",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L5_1",
+      "categoria": "extraccion",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L5_2",
+      "categoria": "extraccion",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L5_3",
+      "categoria": "extraccion",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L1_1",
+      "categoria": "logica",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L1_2",
+      "categoria": "logica",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L1_3",
+      "categoria": "logica",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L2_1",
+      "categoria": "logica",
+      "nivel_original": 2,
+      "p": 0.667,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "logica_L2_2",
+      "categoria": "logica",
+      "nivel_original": 2,
+      "p": 0.867,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L2_3",
+      "categoria": "logica",
+      "nivel_original": 2,
+      "p": 0.333,
+      "nivel_calibrado": 4
+    },
+    {
+      "id": "logica_L3_1",
+      "categoria": "logica",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L3_2",
+      "categoria": "logica",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L4_1",
+      "categoria": "logica",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L4_2",
+      "categoria": "logica",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L5_1",
+      "categoria": "logica",
+      "nivel_original": 5,
+      "p": 0.467,
+      "nivel_calibrado": 3
+    },
+    {
+      "id": "logica_L5_2",
+      "categoria": "logica",
+      "nivel_original": 5,
+      "p": 0.2,
+      "nivel_calibrado": 5
+    },
+    {
+      "id": "math_L1_1",
+      "categoria": "math",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L1_2",
+      "categoria": "math",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L1_3",
+      "categoria": "math",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L2_1",
+      "categoria": "math",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L2_2",
+      "categoria": "math",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L2_3",
+      "categoria": "math",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L3_1",
+      "categoria": "math",
+      "nivel_original": 3,
+      "p": 0.733,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "math_L3_2",
+      "categoria": "math",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L3_3",
+      "categoria": "math",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L4_1",
+      "categoria": "math",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L4_2",
+      "categoria": "math",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L5_1",
+      "categoria": "math",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L5_2",
+      "categoria": "math",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L1_1",
+      "categoria": "codigo",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L1_2",
+      "categoria": "codigo",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L2_1",
+      "categoria": "codigo",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L2_2",
+      "categoria": "codigo",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L3_1",
+      "categoria": "codigo",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L3_2",
+      "categoria": "codigo",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L4_1",
+      "categoria": "codigo",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L4_2",
+      "categoria": "codigo",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_1",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 0.953,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_2",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_3",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_4",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_5",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 0.844,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "codigo_L5_6",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L5_7",
+      "categoria": "codigo",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L1_1",
+      "categoria": "creatividad",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L1_2",
+      "categoria": "creatividad",
+      "nivel_original": 1,
+      "p": 0.947,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L2_1",
+      "categoria": "creatividad",
+      "nivel_original": 2,
+      "p": 0.86,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L2_2",
+      "categoria": "creatividad",
+      "nivel_original": 2,
+      "p": 0.533,
+      "nivel_calibrado": 3
+    },
+    {
+      "id": "creatividad_L3_1",
+      "categoria": "creatividad",
+      "nivel_original": 3,
+      "p": 0.893,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L3_2",
+      "categoria": "creatividad",
+      "nivel_original": 3,
+      "p": 0.827,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "creatividad_L4_1",
+      "categoria": "creatividad",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L4_2",
+      "categoria": "creatividad",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L5_1",
+      "categoria": "creatividad",
+      "nivel_original": 5,
+      "p": 0.0,
+      "nivel_calibrado": 5
+    },
+    {
+      "id": "creatividad_L5_2",
+      "categoria": "creatividad",
+      "nivel_original": 5,
+      "p": 0.533,
+      "nivel_calibrado": 3
+    },
+    {
+      "id": "sintesis_L1_1",
+      "categoria": "sintesis",
+      "nivel_original": 1,
+      "p": 0.991,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L1_2",
+      "categoria": "sintesis",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L2_1",
+      "categoria": "sintesis",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L2_2",
+      "categoria": "sintesis",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L3_1",
+      "categoria": "sintesis",
+      "nivel_original": 3,
+      "p": 0.996,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L3_2",
+      "categoria": "sintesis",
+      "nivel_original": 3,
+      "p": 0.973,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L4_1",
+      "categoria": "sintesis",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L5_1",
+      "categoria": "sintesis",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L1_1",
+      "categoria": "formato",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L1_2",
+      "categoria": "formato",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L2_1",
+      "categoria": "formato",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L2_2",
+      "categoria": "formato",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L3_1",
+      "categoria": "formato",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L3_2",
+      "categoria": "formato",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L4_1",
+      "categoria": "formato",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L4_2",
+      "categoria": "formato",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L5_1",
+      "categoria": "formato",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L5_2",
+      "categoria": "formato",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L1_1",
+      "categoria": "abstracto",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L1_2",
+      "categoria": "abstracto",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L2_1",
+      "categoria": "abstracto",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L2_2",
+      "categoria": "abstracto",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L3_1",
+      "categoria": "abstracto",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L3_2",
+      "categoria": "abstracto",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L4_1",
+      "categoria": "abstracto",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L4_2",
+      "categoria": "abstracto",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L5_1",
+      "categoria": "abstracto",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L5_2",
+      "categoria": "abstracto",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L1_1",
+      "categoria": "factual",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L1_2",
+      "categoria": "factual",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L2_1",
+      "categoria": "factual",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L2_2",
+      "categoria": "factual",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L3_1",
+      "categoria": "factual",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L3_2",
+      "categoria": "factual",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L4_1",
+      "categoria": "factual",
+      "nivel_original": 4,
+      "p": 0.467,
+      "nivel_calibrado": 3
+    },
+    {
+      "id": "factual_L4_2",
+      "categoria": "factual",
+      "nivel_original": 4,
+      "p": 0.067,
+      "nivel_calibrado": 5
+    },
+    {
+      "id": "factual_L5_1",
+      "categoria": "factual",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L5_2",
+      "categoria": "factual",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L1_1",
+      "categoria": "causal",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L1_2",
+      "categoria": "causal",
+      "nivel_original": 1,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L2_1",
+      "categoria": "causal",
+      "nivel_original": 2,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L2_2",
+      "categoria": "causal",
+      "nivel_original": 2,
+      "p": 0.933,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L3_1",
+      "categoria": "causal",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L3_2",
+      "categoria": "causal",
+      "nivel_original": 3,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L4_1",
+      "categoria": "causal",
+      "nivel_original": 4,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L5_1",
+      "categoria": "causal",
+      "nivel_original": 5,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L6_1",
+      "categoria": "math",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L6_2",
+      "categoria": "math",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L7_1",
+      "categoria": "math",
+      "nivel_original": 7,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L6_1",
+      "categoria": "logica",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L6_2",
+      "categoria": "logica",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L6_1",
+      "categoria": "codigo",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L7_1",
+      "categoria": "codigo",
+      "nivel_original": 7,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L6_1",
+      "categoria": "abstracto",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L7_1",
+      "categoria": "abstracto",
+      "nivel_original": 7,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L6_1",
+      "categoria": "factual",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L6_2",
+      "categoria": "factual",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L6_1",
+      "categoria": "causal",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L6_1",
+      "categoria": "formato",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "sintesis_L6_1",
+      "categoria": "sintesis",
+      "nivel_original": 6,
+      "p": 0.727,
+      "nivel_calibrado": 2
+    },
+    {
+      "id": "sintesis_L7_1",
+      "categoria": "sintesis",
+      "nivel_original": 7,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L6_1",
+      "categoria": "extraccion",
+      "nivel_original": 6,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L8_1",
+      "categoria": "math",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "math_L8_2",
+      "categoria": "math",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "logica_L8_1",
+      "categoria": "logica",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L8_1",
+      "categoria": "codigo",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "codigo_L8_2",
+      "categoria": "codigo",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "abstracto_L8_1",
+      "categoria": "abstracto",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L8_1",
+      "categoria": "factual",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "factual_L8_2",
+      "categoria": "factual",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "causal_L8_1",
+      "categoria": "causal",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "extraccion_L8_1",
+      "categoria": "extraccion",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "formato_L8_1",
+      "categoria": "formato",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    },
+    {
+      "id": "creatividad_L8_1",
+      "categoria": "creatividad",
+      "nivel_original": 8,
+      "p": 1.0,
+      "nivel_calibrado": 1
+    }
+  ]
+}

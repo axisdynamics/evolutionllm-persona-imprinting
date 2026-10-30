@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-20T13:58:32.155357",
+  "seed": 100,
+  "tipo": "Modelo Base",
+  "modelo": "Qwen3 8B",
+  "model_config": {
+    "backend": "parallel",
+    "model_name": "qwen3:8b",
+    "disable_thinking": true
+  },
+  "generaciones": 1000,
+  "poblacion": 10,
+  "evaluaciones": 1,
+  "tasa_mutacion": 0.8,
+  "tasa_cruce": 0.7,
+  "elites": 1,
+  "intelligent_mutation_enabled": true,
+  "prob_mutacion_inteligente": 0.3,
+  "checkpoint_interval": 25,
+  "usar_banco": true,
+  "banco_modelo": "qwen3:8b",
+  "n_tareas_gen": 8,
+  "bin_inicial": 2,
+  "ponderar_fitness": false,
+  "gpu_info": {
+    "cuda_available": false,
+    "device_count": 0,
+    "devices": [],
+    "using_gpu": false
+  }
+}

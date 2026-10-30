@@ -1,0 +1,15 @@
+ID: b84af2e5-3e64-48b6-9b5c-505ef7c6dd4f
+FITNESS: 1.0
+GENERACION: 1
+GENOTIPO:
+{
+  "rol": "experto lógico",
+  "formato_salida": "formato JSON",
+  "estrategias": [
+    "Verifica tu respuesta antes de entregarla."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

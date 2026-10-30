@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-08-29T05:41:45.500644",
+  "seed": 101,
+  "tipo": "MIA",
+  "modelo": "AxisQwen",
+  "model_config": {
+    "backend": "parallel",
+    "model_name": "AxisQwen:latest",
+    "disable_thinking": true,
+    "substrate": "qwen3:1.7b",
+    "architecture": "MIA",
+    "identity": "AXIS"
+  },
+  "generaciones": 1000,
+  "poblacion": 10,
+  "evaluaciones": 1,
+  "tasa_mutacion": 0.8,
+  "tasa_cruce": 0.7,
+  "elites": 1,
+  "intelligent_mutation_enabled": false,
+  "prob_mutacion_inteligente": 0.0,
+  "checkpoint_interval": 25,
+  "usar_banco": true,
+  "banco_modelo": "qwen3:1.7b",
+  "n_tareas_gen": 8,
+  "bin_inicial": 2,
+  "ponderar_fitness": false,
+  "gpu_info": {
+    "cuda_available": false,
+    "device_count": 0,
+    "devices": [],
+    "using_gpu": false
+  }
+}

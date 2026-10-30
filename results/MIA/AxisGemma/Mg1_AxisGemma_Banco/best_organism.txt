@@ -1,0 +1,13 @@
+ID: cbff28dc-9557-4ff5-88e0-a8d441ca6ded
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "generador de código Python",
+  "formato_salida": "explicación detallada",
+  "estrategias": [],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

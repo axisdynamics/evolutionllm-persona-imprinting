@@ -1,0 +1,15 @@
+ID: ceaa5124-6e04-4e5e-bb19-c9a4906b409c
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

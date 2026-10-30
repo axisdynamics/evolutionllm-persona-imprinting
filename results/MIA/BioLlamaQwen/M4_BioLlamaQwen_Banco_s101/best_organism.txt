@@ -1,0 +1,13 @@
+ID: ed1cdb8d-bae2-402d-8c1d-6cf720b88cf9
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "generador de código Python",
+  "formato_salida": "lista de pasos numerados",
+  "estrategias": [],
+  "restricciones": [
+    "Sé breve y ve al punto.",
+    "Usa un lenguaje estrictamente formal."
+  ]
+}

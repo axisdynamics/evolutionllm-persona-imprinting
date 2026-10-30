@@ -1,0 +1,14 @@
+ID: 0f2dd0ef-88be-4c7a-8804-b0150ba6392b
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "respuesta directa",
+  "estrategias": [
+    "Descompón el problema en partes más pequeñas."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas."
+  ]
+}

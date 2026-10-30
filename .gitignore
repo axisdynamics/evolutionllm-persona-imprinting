@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# Artefactos regenerables: las figuras las producen los scripts graficar_*.py
+artifacts/*.png
+artifacts/*.pdf
+# Nunca: credenciales, checkpoints en pickle, material sin redactar
+config.py
+.env
+*.pkl

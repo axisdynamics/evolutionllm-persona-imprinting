@@ -1,0 +1,15 @@
+ID: b0b08ef8-1b54-4054-8876-77b0f2bd1a56
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "código ejecutable",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "Sé breve y ve al punto.",
+    "Usa un lenguaje estrictamente formal."
+  ]
+}

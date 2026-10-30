@@ -1,0 +1,10 @@
+ID: a29065e9-ef31-411e-a1ba-0b112b87bfb4
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "razonador abstracto",
+  "formato_salida": "formato JSON",
+  "estrategias": [],
+  "restricciones": []
+}

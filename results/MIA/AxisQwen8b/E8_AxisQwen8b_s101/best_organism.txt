@@ -1,0 +1,14 @@
+ID: ab590880-7cf6-4bd9-bbae-c6748df840ae
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "respuesta directa",
+  "estrategias": [
+    "Verifica tu respuesta antes de entregarla."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas."
+  ]
+}

@@ -1,0 +1,15 @@
+ID: 78509b79-1793-4348-9996-e08d852214fc
+FITNESS: 1.0
+GENERACION: 2
+GENOTIPO:
+{
+  "rol": "razonador abstracto",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Usa un lenguaje estrictamente formal."
+  ]
+}

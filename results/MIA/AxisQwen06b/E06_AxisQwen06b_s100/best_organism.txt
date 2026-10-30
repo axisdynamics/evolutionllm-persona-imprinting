@@ -1,0 +1,15 @@
+ID: 2a83225c-b524-47ef-a41b-a834080d15f7
+FITNESS: 1.0
+GENERACION: 107
+GENOTIPO:
+{
+  "rol": "CONOCIMIENTO INTUITIONADO",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

@@ -1,0 +1,12 @@
+ID: 5b24b233-fb44-4cd0-b849-087b4987e9a7
+FITNESS: 1.0
+GENERACION: 1
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "respuesta directa",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": []
+}

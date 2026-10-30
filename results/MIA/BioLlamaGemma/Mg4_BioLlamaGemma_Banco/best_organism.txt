@@ -1,0 +1,13 @@
+ID: 2896a703-9d85-436b-96c1-63745d4f665b
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "generador de código Python",
+  "formato_salida": "explicación detallada",
+  "estrategias": [],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

@@ -1,0 +1,13 @@
+ID: 0961bde5-9bad-4c95-8358-01a76af06f41
+FITNESS: 1.0
+GENERACION: 1
+GENOTIPO:
+{
+  "rol": "experto lógico",
+  "formato_salida": "respuesta directa",
+  "estrategias": [],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

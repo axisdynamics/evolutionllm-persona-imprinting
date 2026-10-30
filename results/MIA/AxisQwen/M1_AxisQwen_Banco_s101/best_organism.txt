@@ -1,0 +1,15 @@
+ID: e941e8a1-2d1d-4861-a864-8e6e91431d7e
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "experto lógico",
+  "formato_salida": "lista de pasos numerados",
+  "estrategias": [
+    "Descompón el problema en partes más pequeñas.",
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "Sé breve y ve al punto."
+  ]
+}

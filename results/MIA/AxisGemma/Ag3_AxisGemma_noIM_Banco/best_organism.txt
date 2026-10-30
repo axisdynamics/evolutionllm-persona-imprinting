@@ -1,0 +1,15 @@
+ID: 5dc060ef-04d1-4d7f-becb-8868f73c2ba9
+FITNESS: 1.0
+GENERACION: 1
+GENOTIPO:
+{
+  "rol": "generador de código Python",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Verifica tu respuesta antes de entregarla."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}

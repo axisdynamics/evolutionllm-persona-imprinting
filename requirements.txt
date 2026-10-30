@@ -1,0 +1,22 @@
+# === To reproduce the analysis (every table and figure in the paper) ===
+# This is all you need to regenerate the published results from the run artifacts
+# already in this repository. No GPU, no model server, no model downloads.
+# Verified: the transitive import closure of the nine analysis and plotting scripts
+# requires exactly these two third-party packages.
+scipy>=1.11           # Fisher exact test (the paper used 1.18.0)
+matplotlib>=3.7       # figures; guardar_figura.py sets fonttype 42 for vector output
+
+# === To re-run the evolutionary experiments as well ===
+# Only needed to run the engine, not to verify the published numbers. Inference is
+# served by Ollama as a separate process (see README), so the engine runs on CPU.
+numpy>=1.24                 # genome and metric handling
+pandas>=2.0                 # metric series
+requests>=2.31              # HTTP client for the Ollama servers
+pyphen>=0.14                # syllable counting, used by a poetry task validator
+thefuzz[speedup]>=0.20      # fuzzy matching in the deterministic validators
+
+# Tier-2 semantic validation (validacion_semantica.py). Heavy, and imported lazily:
+# the engine starts without it and raises on the first task that needs semantic
+# coverage scoring, so install it before a full run.
+sentence-transformers>=2.2
+torch>=2.0

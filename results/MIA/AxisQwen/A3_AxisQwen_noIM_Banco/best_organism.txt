@@ -1,0 +1,12 @@
+ID: 2cb46afd-8a01-4fea-a756-db926c773b58
+FITNESS: 1.0
+GENERACION: 1
+GENOTIPO:
+{
+  "rol": "analista de datos",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": []
+}

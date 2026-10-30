@@ -1,0 +1,12 @@
+ID: a5f036d9-47f0-442f-9e75-b2334e3ffe9e
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "analista de datos",
+  "formato_salida": "formato JSON",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": []
+}

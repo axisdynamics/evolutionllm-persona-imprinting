@@ -1,0 +1,13 @@
+ID: b69db4cc-84d2-4a8a-a360-bc1ad4edd951
+FITNESS: 1.0
+GENERACION: 6
+GENOTIPO:
+{
+  "rol": "experto lógico",
+  "formato_salida": "código ejecutable",
+  "estrategias": [
+    "Descompón el problema en partes más pequeñas.",
+    "Piensa paso a paso."
+  ],
+  "restricciones": []
+}

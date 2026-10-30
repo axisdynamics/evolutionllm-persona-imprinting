@@ -1,0 +1,407 @@
+{
+  "total_segundos": 153864.65580415726,
+  "total_horas": 42.74018216782146,
+  "promedio_por_generacion_seg": 153.86465580415725,
+  "por_generacion": [
+    {
+      "generacion": 900,
+      "tiempo_segundos": 98.46977043151855
+    },
+    {
+      "generacion": 901,
+      "tiempo_segundos": 227.1985719203949
+    },
+    {
+      "generacion": 902,
+      "tiempo_segundos": 94.61735081672668
+    },
+    {
+      "generacion": 903,
+      "tiempo_segundos": 80.9855854511261
+    },
+    {
+      "generacion": 904,
+      "tiempo_segundos": 83.37785053253174
+    },
+    {
+      "generacion": 905,
+      "tiempo_segundos": 91.77201414108276
+    },
+    {
+      "generacion": 906,
+      "tiempo_segundos": 82.2412416934967
+    },
+    {
+      "generacion": 907,
+      "tiempo_segundos": 100.89048552513123
+    },
+    {
+      "generacion": 908,
+      "tiempo_segundos": 125.65688514709473
+    },
+    {
+      "generacion": 909,
+      "tiempo_segundos": 76.0981798171997
+    },
+    {
+      "generacion": 910,
+      "tiempo_segundos": 119.34150433540344
+    },
+    {
+      "generacion": 911,
+      "tiempo_segundos": 74.38078236579895
+    },
+    {
+      "generacion": 912,
+      "tiempo_segundos": 79.53522777557373
+    },
+    {
+      "generacion": 913,
+      "tiempo_segundos": 123.60122895240784
+    },
+    {
+      "generacion": 914,
+      "tiempo_segundos": 72.42299270629883
+    },
+    {
+      "generacion": 915,
+      "tiempo_segundos": 74.97393274307251
+    },
+    {
+      "generacion": 916,
+      "tiempo_segundos": 72.09565258026123
+    },
+    {
+      "generacion": 917,
+      "tiempo_segundos": 87.44166922569275
+    },
+    {
+      "generacion": 918,
+      "tiempo_segundos": 101.7570858001709
+    },
+    {
+      "generacion": 919,
+      "tiempo_segundos": 91.76712036132812
+    },
+    {
+      "generacion": 920,
+      "tiempo_segundos": 77.36233234405518
+    },
+    {
+      "generacion": 921,
+      "tiempo_segundos": 92.61701321601868
+    },
+    {
+      "generacion": 922,
+      "tiempo_segundos": 87.95638871192932
+    },
+    {
+      "generacion": 923,
+      "tiempo_segundos": 63.79853391647339
+    },
+    {
+      "generacion": 924,
+      "tiempo_segundos": 84.53098726272583
+    },
+    {
+      "generacion": 925,
+      "tiempo_segundos": 124.81108593940735
+    },
+    {
+      "generacion": 926,
+      "tiempo_segundos": 77.59914064407349
+    },
+    {
+      "generacion": 927,
+      "tiempo_segundos": 64.63260793685913
+    },
+    {
+      "generacion": 928,
+      "tiempo_segundos": 75.83566546440125
+    },
+    {
+      "generacion": 929,
+      "tiempo_segundos": 124.61526536941528
+    },
+    {
+      "generacion": 930,
+      "tiempo_segundos": 112.52999234199524
+    },
+    {
+      "generacion": 931,
+      "tiempo_segundos": 118.83890581130981
+    },
+    {
+      "generacion": 932,
+      "tiempo_segundos": 125.33956623077393
+    },
+    {
+      "generacion": 933,
+      "tiempo_segundos": 77.60555815696716
+    },
+    {
+      "generacion": 934,
+      "tiempo_segundos": 109.41280674934387
+    },
+    {
+      "generacion": 935,
+      "tiempo_segundos": 104.88045454025269
+    },
+    {
+      "generacion": 936,
+      "tiempo_segundos": 123.11732220649719
+    },
+    {
+      "generacion": 937,
+      "tiempo_segundos": 114.07116603851318
+    },
+    {
+      "generacion": 938,
+      "tiempo_segundos": 78.94507765769958
+    },
+    {
+      "generacion": 939,
+      "tiempo_segundos": 130.08880233764648
+    },
+    {
+      "generacion": 940,
+      "tiempo_segundos": 117.25533437728882
+    },
+    {
+      "generacion": 941,
+      "tiempo_segundos": 182.231271982193
+    },
+    {
+      "generacion": 942,
+      "tiempo_segundos": 123.09192252159119
+    },
+    {
+      "generacion": 943,
+      "tiempo_segundos": 126.00053286552429
+    },
+    {
+      "generacion": 944,
+      "tiempo_segundos": 162.22037625312805
+    },
+    {
+      "generacion": 945,
+      "tiempo_segundos": 85.1011860370636
+    },
+    {
+      "generacion": 946,
+      "tiempo_segundos": 108.1712760925293
+    },
+    {
+      "generacion": 947,
+      "tiempo_segundos": 120.66465616226196
+    },
+    {
+      "generacion": 948,
+      "tiempo_segundos": 83.50698709487915
+    },
+    {
+      "generacion": 949,
+      "tiempo_segundos": 124.18686246871948
+    },
+    {
+      "generacion": 950,
+      "tiempo_segundos": 107.2194151878357
+    },
+    {
+      "generacion": 951,
+      "tiempo_segundos": 112.84400415420532
+    },
+    {
+      "generacion": 952,
+      "tiempo_segundos": 102.08800601959229
+    },
+    {
+      "generacion": 953,
+      "tiempo_segundos": 100.17680668830872
+    },
+    {
+      "generacion": 954,
+      "tiempo_segundos": 89.04340028762817
+    },
+    {
+      "generacion": 955,
+      "tiempo_segundos": 93.1714415550232
+    },
+    {
+      "generacion": 956,
+      "tiempo_segundos": 79.83706450462341
+    },
+    {
+      "generacion": 957,
+      "tiempo_segundos": 129.51753664016724
+    },
+    {
+      "generacion": 958,
+      "tiempo_segundos": 99.23742866516113
+    },
+    {
+      "generacion": 959,
+      "tiempo_segundos": 158.90231251716614
+    },
+    {
+      "generacion": 960,
+      "tiempo_segundos": 161.9764223098755
+    },
+    {
+      "generacion": 961,
+      "tiempo_segundos": 158.41064357757568
+    },
+    {
+      "generacion": 962,
+      "tiempo_segundos": 176.25207614898682
+    },
+    {
+      "generacion": 963,
+      "tiempo_segundos": 140.5462875366211
+    },
+    {
+      "generacion": 964,
+      "tiempo_segundos": 132.38494086265564
+    },
+    {
+      "generacion": 965,
+      "tiempo_segundos": 205.84689378738403
+    },
+    {
+      "generacion": 966,
+      "tiempo_segundos": 280.7729151248932
+    },
+    {
+      "generacion": 967,
+      "tiempo_segundos": 122.85719776153564
+    },
+    {
+      "generacion": 968,
+      "tiempo_segundos": 162.9149398803711
+    },
+    {
+      "generacion": 969,
+      "tiempo_segundos": 157.49532389640808
+    },
+    {
+      "generacion": 970,
+      "tiempo_segundos": 147.28220200538635
+    },
+    {
+      "generacion": 971,
+      "tiempo_segundos": 198.41618609428406
+    },
+    {
+      "generacion": 972,
+      "tiempo_segundos": 103.53615856170654
+    },
+    {
+      "generacion": 973,
+      "tiempo_segundos": 79.26853394508362
+    },
+    {
+      "generacion": 974,
+      "tiempo_segundos": 107.41602349281311
+    },
+    {
+      "generacion": 975,
+      "tiempo_segundos": 140.0079505443573
+    },
+    {
+      "generacion": 976,
+      "tiempo_segundos": 142.03831434249878
+    },
+    {
+      "generacion": 977,
+      "tiempo_segundos": 126.33225393295288
+    },
+    {
+      "generacion": 978,
+      "tiempo_segundos": 191.25982069969177
+    },
+    {
+      "generacion": 979,
+      "tiempo_segundos": 124.66986393928528
+    },
+    {
+      "generacion": 980,
+      "tiempo_segundos": 131.74537348747253
+    },
+    {
+      "generacion": 981,
+      "tiempo_segundos": 170.0702428817749
+    },
+    {
+      "generacion": 982,
+      "tiempo_segundos": 261.2209174633026
+    },
+    {
+      "generacion": 983,
+      "tiempo_segundos": 113.50491428375244
+    },
+    {
+      "generacion": 984,
+      "tiempo_segundos": 85.8373122215271
+    },
+    {
+      "generacion": 985,
+      "tiempo_segundos": 104.93652725219727
+    },
+    {
+      "generacion": 986,
+      "tiempo_segundos": 120.5603096485138
+    },
+    {
+      "generacion": 987,
+      "tiempo_segundos": 92.98760795593262
+    },
+    {
+      "generacion": 988,
+      "tiempo_segundos": 116.51548266410828
+    },
+    {
+      "generacion": 989,
+      "tiempo_segundos": 91.97910952568054
+    },
+    {
+      "generacion": 990,
+      "tiempo_segundos": 111.4508752822876
+    },
+    {
+      "generacion": 991,
+      "tiempo_segundos": 104.66087317466736
+    },
+    {
+      "generacion": 992,
+      "tiempo_segundos": 128.66468715667725
+    },
+    {
+      "generacion": 993,
+      "tiempo_segundos": 125.78864359855652
+    },
+    {
+      "generacion": 994,
+      "tiempo_segundos": 76.73619842529297
+    },
+    {
+      "generacion": 995,
+      "tiempo_segundos": 96.78241968154907
+    },
+    {
+      "generacion": 996,
+      "tiempo_segundos": 105.84462547302246
+    },
+    {
+      "generacion": 997,
+      "tiempo_segundos": 103.09288120269775
+    },
+    {
+      "generacion": 998,
+      "tiempo_segundos": 164.05496549606323
+    },
+    {
+      "generacion": 999,
+      "tiempo_segundos": 91.23101735115051
+    }
+  ]
+}

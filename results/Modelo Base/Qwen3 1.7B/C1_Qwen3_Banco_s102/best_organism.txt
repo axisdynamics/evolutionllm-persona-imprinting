@@ -1,0 +1,15 @@
+ID: 1c5eb0bd-09cd-4cc8-9d95-e6f8d7840a8a
+FITNESS: 1.0
+GENERACION: 0
+GENOTIPO:
+{
+  "rol": "asistente conciso y directo",
+  "formato_salida": "explicación detallada",
+  "estrategias": [
+    "Piensa paso a paso."
+  ],
+  "restricciones": [
+    "No incluyas preámbulos ni disculpas.",
+    "Sé breve y ve al punto."
+  ]
+}
