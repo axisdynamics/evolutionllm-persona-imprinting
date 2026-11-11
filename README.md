@@ -4,13 +4,14 @@ Code and data for *Persona Imprinting: Evolved Prompts Inherit the Identity of t
 Writes Them* (Castillo-Sepúlveda, Torres-Yévenes & Lanas-Ocampo, Axis Dynamics SpA).
 
 A genetic algorithm evolves a **structured prompt genome** over locally served language models.
-One of the four genes — the reasoning *strategies* — is authored by the model under study itself,
-which makes every act of variation a transmission event. When that model is conditioned by a
-**persona specification** (the `SYSTEM` block of an Ollama model file), the persona writes itself
-into the population's inheritable material: persona-specific symbolic markers appear in 6 of 6
-persona-conditioned runs and 0 of 6 control and ablation runs (Fisher exact *p* = 0.002, run as
-the experimental unit). Switching off model-authored gene synthesis removes the effect in every
-replicate, which identifies the route of entry.
+Two of the four genes, the *role* and the reasoning *strategies*, are authored by the model under
+study itself, which makes every act of variation a transmission event. When that model is
+conditioned by a **persona specification** (the `SYSTEM` block of an Ollama model file), the
+persona writes itself into the population's inheritable material: persona-specific symbolic
+markers appear in 6 of 6 persona-conditioned runs and 0 of 6 control and ablation runs (Fisher
+exact *p* = 0.002, run as the experimental unit). Every marker lands in *strategies*, none in
+*role*. Switching off model-authored gene synthesis removes the effect in every replicate, which
+identifies the route of entry.
 
 This repository holds the engine, the task bank, the persona specifications, the analysis scripts
 and the complete per-run artifacts for all **28 runs** in the paper. Every table and figure is
