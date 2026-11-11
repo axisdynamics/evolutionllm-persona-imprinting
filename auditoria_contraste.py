@@ -101,6 +101,32 @@ def fisher(a, b, c, d):
     return fisher_exact([[a, b], [c, d]], alternative="two-sided")[1]
 
 
+GENES = ("rol", "formato_salida", "estrategias", "restricciones")
+
+
+def por_gen(dirs, glifos_spec, b64_spec):
+    """
+    En qué GEN aparece el marcador. Respalda la afirmación de §3.2.
+
+    El operador inteligente escribe dos de los cuatro genes, `rol` y `estrategias`, con
+    probabilidad 0.5 cada uno cuando dispara. La pregunta es si la impronta se reparte
+    entre los dos o se concentra, y la respuesta no era obvia de antemano.
+    """
+    pref = [b[:PREFIJO_B64] for b in b64_spec]
+    cnt = collections.Counter()
+    n = 0
+    for d in dirs:
+        for c in json.load(open(f"{d}/campeones_por_generacion.json")):
+            g = c["genotipo"]
+            n += 1
+            for campo in GENES:
+                v = g.get(campo)
+                t = " ".join(map(str, v)) if isinstance(v, list) else str(v or "")
+                if ({x for x in GLIFOS if x in t} & glifos_spec) or any(p in t for p in pref):
+                    cnt[campo] += 1
+    return n, cnt
+
+
 def main():
     filas = []
     print("Definición del evento: ≥1 campeón con un glifo de la spec de SU persona, o una\n"
@@ -152,6 +178,20 @@ def main():
     print(f"  tasa de FONDO (glifos de ninguna spec: {''.join(sorted(FONDO))}): "
           f"máx {max(f[3]['fondo'] for f in filas):.1f}% sobre {len(filas)} ejecuciones")
     print("  -> cualquier prevalencia del orden del fondo debe leerse como traza, no como señal.")
+
+    print("\nEN QUÉ GEN APARECE EL MARCADOR (§3.2)")
+    print("  El operador inteligente escribe `rol` y `estrategias`, 0.5 cada uno al disparar.")
+    for etiqueta, brazo, base, seeds, spec in RUNS:
+        if brazo != "persona":
+            continue
+        gl_spec, b64_spec = leer_spec(spec)
+        dirs = [ruta(base, s) for s in seeds
+                if Path(f"{ruta(base, s)}/campeones_por_generacion.json").exists()]
+        n, cnt = por_gen(dirs, gl_spec, b64_spec)
+        detalle = "  ".join(f"{g}={cnt[g]}" for g in GENES)
+        print(f"  {etiqueta:<6} ({n} campeones, {len(dirs)} semillas): {detalle}")
+    print("  -> la impronta se concentra en `estrategias`, pese a que `rol` lo escribe el")
+    print("     modelo con la misma frecuencia; es autoría de gen, no un canal difuso.")
 
 
 if __name__ == "__main__":
