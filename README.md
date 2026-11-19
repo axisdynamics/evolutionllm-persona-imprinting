@@ -1,5 +1,7 @@
 # Persona Imprinting
 
+[![DOI](https://zenodo.org/badge/1409651587.svg)](https://doi.org/10.5281/zenodo.24357580)
+
 Code and data for *Persona Imprinting: Evolved Prompts Inherit the Identity of the Model that
 Writes Them* (Castillo-Sepúlveda, Torres-Yévenes & Lanas-Ocampo, Axis Dynamics SpA).
 
@@ -118,9 +120,19 @@ Code comments and the specifications are in Spanish; the study was conducted in 
 
 ## Citing
 
-Castillo-Sepúlveda, J., Torres-Yévenes, M. & Lanas-Ocampo, J. C. *Persona Imprinting: Evolved
-Prompts Inherit the Identity of the Model that Writes Them.* Under review, *Artificial Life*
-(MIT Press), 2026.
+Please cite the paper:
+
+> Castillo-Sepúlveda, J., Torres-Yévenes, M., & Lanas-Ocampo, J. C. (2026). *Persona Imprinting:
+> Evolved Prompts Inherit the Identity of the Model that Writes Them.* Under review, *Artificial
+> Life* (MIT Press).
+
+and, for this code and data release:
+
+> Castillo-Sepúlveda, J., Torres-Yévenes, M., & Lanas-Ocampo, J. C. (2026). *Persona Imprinting:
+> code and data* (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24357581
+
+`10.5281/zenodo.24357581` is this release; `10.5281/zenodo.24357580` always
+resolves to the most recent one.
 
 ## License
 
