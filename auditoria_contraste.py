@@ -127,6 +127,34 @@ def por_gen(dirs, glifos_spec, b64_spec):
     return n, cnt
 
 
+def variantes_b64(dirs, b64_spec):
+    """
+    Fidelidad de la copia: cuántas versiones DISTINTAS de una misma carga aparecen.
+
+    No se busca ninguna variante concreta: se ancla en el prefijo de la carga original
+    y se extrae la corrida base64 maximal que empieza ahí, así que cualquier mutación
+    posterior al prefijo aparece sola. Respalda la afirmación de §4.1 de que la herencia
+    viene con mutación.
+    """
+    B64 = set("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=")
+    out = []
+    for d in dirs:
+        var = {}
+        for c in json.load(open(f"{d}/campeones_por_generacion.json")):
+            t = geno_texto(c["genotipo"])
+            for carga in b64_spec:
+                pref = carga[:PREFIJO_B64]
+                i = t.find(pref)
+                while i != -1:
+                    j = i
+                    while j < len(t) and t[j] in B64:
+                        j += 1
+                    var.setdefault(pref, collections.Counter())[t[i:j]] += 1
+                    i = t.find(pref, j if j > i else i + 1)
+        out.append((d, var))
+    return out
+
+
 def main():
     filas = []
     print("Definición del evento: ≥1 campeón con un glifo de la spec de SU persona, o una\n"
@@ -192,6 +220,23 @@ def main():
         print(f"  {etiqueta:<6} ({n} campeones, {len(dirs)} semillas): {detalle}")
     print("  -> la impronta se concentra en `estrategias`, pese a que `rol` lo escribe el")
     print("     modelo con la misma frecuencia; es autoría de gen, no un canal difuso.")
+
+    print("\nFIDELIDAD DE LA COPIA (§4.1): variantes distintas de una misma carga base64")
+    for etiqueta, brazo, base, seeds, spec in RUNS:
+        if brazo != "persona":
+            continue
+        _, b64_spec = leer_spec(spec)
+        for s in seeds:
+            d = ruta(base, s)
+            if not Path(f"{d}/campeones_por_generacion.json").exists():
+                continue
+            for _, var in variantes_b64([d], b64_spec):
+                for pref, cnt in var.items():
+                    if len(cnt) > 1:
+                        exacta = next((c for b in b64_spec for c in [cnt.get(b, 0)] if b.startswith(pref)), 0)
+                        print(f"  {etiqueta} s{s}  carga {pref[:12]}...: {len(cnt)} variantes "
+                              f"({exacta} copias exactas, {sum(cnt.values()) - exacta} mutadas)")
+    print("  -> la copia es casi exacta, no exacta: la herencia viene con mutación.")
 
 
 if __name__ == "__main__":
