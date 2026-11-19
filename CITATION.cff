@@ -9,14 +9,16 @@ type: software
 version: 1.0.0
 date-released: "2026-11-18"
 license: MIT
-repository-code: "https://github.com/axisdynamics/persona-imprinting"
+repository-code: "https://github.com/axisdynamics/evolutionllm-persona-imprinting"
 authors:
   - family-names: "Castillo-Sepúlveda"
     given-names: "Jorge"
     affiliation: "Axis Dynamics SpA, Chile"
+    orcid: "https://orcid.org/0009-0008-6778-1290"
   - family-names: "Torres-Yévenes"
     given-names: "Marco"
     affiliation: "Axis Dynamics SpA, Chile"
+    orcid: "https://orcid.org/0009-0007-6304-6726"
   - family-names: "Lanas-Ocampo"
     given-names: "Juan Carlos"
     affiliation: "Axis Dynamics SpA, Chile"
