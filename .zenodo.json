@@ -1,0 +1,23 @@
+{
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "license": "mit",
+  "version": "1.0.0",
+  "title": "Persona Imprinting: code and data",
+  "description": "<p>Engine, task bank, persona specifications, analysis scripts and the complete per-run artifacts for all 28 runs reported in <em>Persona Imprinting: Evolved Prompts Inherit the Identity of the Model that Writes Them</em> (Castillo-Sep&uacute;lveda, Torres-Y&eacute;venes &amp; Lanas-Ocampo, Axis Dynamics SpA).</p><p>A genetic algorithm evolves a structured prompt genome over locally served language models. Two of the four genes are authored by the model under study itself, so every act of variation is a transmission event. When that model is conditioned by a persona specification, persona-specific symbolic markers appear in 6 of 6 persona-conditioned runs and 0 of 6 control and ablation runs (Fisher exact p = 0.002, run as the experimental unit). Switching off model-authored gene synthesis removes the effect in every replicate.</p><p>Every table and figure in the paper is regenerated here by a named script from logged data. Nothing is withheld or transformed: the persona specifications are published in full. See <code>DATA_AVAILABILITY.md</code>.</p>",
+  "creators": [
+    {"name": "Castillo-Sepúlveda, Jorge", "affiliation": "Axis Dynamics SpA, Chile"},
+    {"name": "Torres-Yévenes, Marco", "affiliation": "Axis Dynamics SpA, Chile"},
+    {"name": "Lanas-Ocampo, Juan Carlos", "affiliation": "Axis Dynamics SpA, Chile"}
+  ],
+  "keywords": [
+    "persona imprinting",
+    "LLM-driven evolution",
+    "cultural transmission",
+    "prompt evolution",
+    "self-replication",
+    "artificial life",
+    "genetic algorithm"
+  ]
+}

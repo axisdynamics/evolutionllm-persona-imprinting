@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the repository and the paper."
+title: "Persona Imprinting: code and data"
+abstract: >-
+  Engine, task bank, persona specifications, analysis scripts and complete per-run
+  artifacts for all 28 runs reported in "Persona Imprinting: Evolved Prompts Inherit
+  the Identity of the Model that Writes Them".
+type: software
+version: 1.0.0
+date-released: "2026-11-18"
+license: MIT
+repository-code: "https://github.com/axisdynamics/persona-imprinting"
+authors:
+  - family-names: "Castillo-Sepúlveda"
+    given-names: "Jorge"
+    affiliation: "Axis Dynamics SpA, Chile"
+  - family-names: "Torres-Yévenes"
+    given-names: "Marco"
+    affiliation: "Axis Dynamics SpA, Chile"
+  - family-names: "Lanas-Ocampo"
+    given-names: "Juan Carlos"
+    affiliation: "Axis Dynamics SpA, Chile"
+keywords:
+  - persona imprinting
+  - LLM-driven evolution
+  - cultural transmission
+  - prompt evolution
+  - self-replication
+  - artificial life
+preferred-citation:
+  type: article
+  title: "Persona Imprinting: Evolved Prompts Inherit the Identity of the Model that Writes Them"
+  year: 2026
+  journal: "Artificial Life"
+  notes: "Under review"
+  authors:
+    - family-names: "Castillo-Sepúlveda"
+      given-names: "Jorge"
+    - family-names: "Torres-Yévenes"
+      given-names: "Marco"
+    - family-names: "Lanas-Ocampo"
+      given-names: "Juan Carlos"
